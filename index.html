@@ -1,0 +1,421 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Coffee shop</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+</head>
+<body>
+    
+    <!-- Header section -->
+
+    <header class="header">
+        
+        <a href="#" class="logo">
+            <img src="./img/logo.png" alt="">
+        </a>
+
+        <nav class="navbar">
+
+            <a href="#home">Home</a>
+
+            <a href="#about">About</a>
+
+            <a href="#menu">Menu</a>
+
+            <a href="#products">Products</a>
+
+            <a href="#review">Review</a>
+
+            <a href="#contacts">Contacts</a>
+
+            <a href="#blog">Blog</a>
+
+
+        </nav>
+
+        <div class="icons">
+            <div class="fas fa-search" id="search-btn"></div>
+            <div class="fas fa-shopping-cart" id="cart-btn"></div>
+            <div class="fas fa-bars" id="menu-btn"></div>
+        </div>
+
+        <div class="search-form">
+            <input type="search" id="search-box" placeholder="search here...">
+            <label for="search-box" class="fas fa-search"></label>
+        </div>
+
+        <div class="cart-items-container">
+            
+            <div class="cart-item">
+                <span class="fas fa-times"></span>
+                <img src="./img/cart-item-1.png" alt="">
+                <div class="content">
+                    <h3>cart item 01</h3>
+                    <div class="price">$15.99</div>
+                </div>
+            </div>
+
+            <div class="cart-item">
+                <span class="fas fa-times"></span>
+                <img src="./img/cart-item-2.png" alt="">
+                <div class="content">
+                    <h3>cart item 02</h3>
+                    <div class="price">$19.99</div>
+                </div>
+            </div>
+
+            <div class="cart-item">
+                <span class="fas fa-times"></span>
+                <img src="./img/cart-item-3.png" alt="">
+                <div class="content">
+                    <h3>cart item 03</h3>
+                    <div class="price">$24.99</div>
+                </div>
+            </div>
+
+            <div class="cart-item">
+                <span class="fas fa-times"></span>
+                <img src="./img/cart-item-4.png" alt="">
+                <div class="content">
+                    <h3>cart item 04</h3>
+                    <div class="price">$17.99</div>
+                </div>
+            </div>
+
+                <a href="#" class="btn">checkout now</a>
+
+        </div>
+
+    </header>
+
+    <!-- Home section -->
+
+    <section class="home" id="home">
+        <div class="content">
+            <h3>fresh coffee in the morning</h3>
+            <p>Welcome to the world of real coffee! Our beans are roasted with love to ensure that every cup 
+                brings you real pleasure from the very beginning. Forget the sleepy atmosphere - our freshly 
+                brewed coffee fills you with energy, awakens your senses and creates a unique aroma that stays 
+                with you all day. Immerse yourself in a magical world of tastes and pleasures with every sip. 
+                The morning starts with our coffee!</p>
+                <a href="#" class="btn">get yours now</a>
+        </div>
+    </section>
+
+    <!-- About section -->
+
+    <section class="about" id="about">
+        <h1 class="heading"><span>About</span> us</h1>
+            <div class="row">
+                <div class="image">
+                    <img src="./img/about-img.jpeg" alt="">
+                </div>
+
+                <div class="content">
+                    <h3>What makes our coffee special?</h3>
+                    <p>Our coffee is not just a drink, it is a real journey into the world of refined tastes and unique aromas. We take pride in every 
+                        stage of production, from selecting the best beans, through careful roasting, to masterful preparation. But what makes our 
+                        coffee truly special?</p>
+                        <p>This is that incredible harmony of flavors that is revealed in every cup - from delicate sweetness to rich depth. 
+                            We don't just have coffee, we have history, art and passion for creating the perfect drink. Try our coffee and you 
+                            will feel the difference from the first sip.</p>
+                            <a href="#" class="btn">Learn more</a>
+                </div>
+            </div>
+    </section>
+
+    <!-- Menu section -->
+
+    <section class="menu" id="menu">
+        <h1 class="heading">Our <span>menu</span></h1>
+        <div class="box-container">
+            <div class="box">
+                <img src="./img/menu-1.png" alt="">
+                <h3>Espresso Macchiato with Vanilla Cloud</h3>
+                <div class="price">$4.99 <span>7.99</span></div>
+                <a href="#" class="btn">add to cart</a>
+            </div>
+
+            <div class="box">
+                <img src="./img/menu-2.png" alt="">
+                <h3>Caramel Latte Lux</h3>
+                <div class="price">$5.99 <span>9.99</span></div>
+                <a href="#" class="btn">add to cart</a>
+            </div>
+
+            <div class="box">
+                <img src="./img/menu-3.png" alt="">
+                <h3>Americano with Chocolate Flavor</h3>
+                <div class="price">$8.49 <span>12.99</span></div>
+                <a href="#" class="btn">add to cart</a>
+            </div>
+
+            <div class="box">
+                <img src="./img/menu-4.png" alt="">
+                <h3>Creamy Cappuccino with Almond Inspiration</h3>
+                <div class="price">$7.99 <span>10.99</span></div>
+                <a href="#" class="btn">add to cart</a>
+            </div>
+
+            <div class="box">
+                <img src="./img/menu-5.png" alt="">
+                <h3>Vanilla Macchiato</h3>
+                <div class="price">$5.99 <span>7.99</span></div>
+                <a href="#" class="btn">add to cart</a>
+            </div>
+
+            <div class="box">
+                <img src="./img/menu-6.png" alt="">
+                <h3>Iced Flannel Latte</h3>
+                <div class="price">$6.49 <span>8.99</span></div>
+                <a href="#" class="btn">add to cart</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Products section -->
+
+    <section class="products" id="products">
+        <h1 class="heading">Our <span>products</span></h1>
+
+        <div class="box-container">
+            <div class="box">
+                <div class="icons">
+                    <a href="#" class="fas fa-shopping-cart"></a>
+                    <a href="#" class="fas fa-heart"></a>
+                    <a href="#" class="fas fa-eye"></a>
+                </div>
+
+                <div class="image">
+                    <img src="./img/product-1.png" alt="">
+                </div>
+
+                <div class="content">
+                    <h3>Coffee beans Nicaragua</h3>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <div class="price">$15.99 <span>$20.99</span></div>
+                </div>
+            </div>
+
+            <div class="box">
+                <div class="icons">
+                    <a href="#" class="fas fa-shopping-cart"></a>
+                    <a href="#" class="fas fa-heart"></a>
+                    <a href="#" class="fas fa-eye"></a>
+                </div>
+
+                <div class="image">
+                    <img src="./img/product-2.png" alt="">
+                </div>
+
+                <div class="content">
+                    <h3>Coffee beans Colombia</h3>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <div class="price">$19.99 <span>$29.99</span></div>
+                </div>
+            </div>
+
+            <div class="box">
+                <div class="icons">
+                    <a href="#" class="fas fa-shopping-cart"></a>
+                    <a href="#" class="fas fa-heart"></a>
+                    <a href="#" class="fas fa-eye"></a>
+                </div>
+
+                <div class="image">
+                    <img src="./img/product-3.png" alt="">
+                </div>
+
+                <div class="content">
+                    <h3>Coffee beans Peru</h3>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <div class="price">$22.99 <span>$32.99</span></div>
+                </div>
+            </div>
+
+        </div>
+</section>
+
+<!-- Review section -->
+
+    <section class="review" id="review">
+        <h1 class="heading">Customer`s <span>review</span></h1>
+
+        <div class="box-container">
+            <div class="box">
+                <img src="./img/quote-img.png" alt="" class="quote">
+                <p>Your coffee shop is a real paradise for lovers of this drink! The exceptional quality of beans and attentive staff create 
+                    a unique atmosphere of real coffee comfort.</p>
+                    <img src="./img/sr.jpg" alt="" class="user">
+                    <h3>Arjun Kumar</h3>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+            </div>
+
+            <div class="box">
+                <img src="./img/quote-img.png" alt="" class="quote">
+                <p>Discovered a real coffee gem! Your selection of coffee varieties was amazing with the variety of flavors. The service is top notch, 
+                    every trip to your store is a real treat for my taste buds!</p>
+                    <img src="./img/sr2.jpg" alt="" class="user">
+                    <h3>Vikas Sharma</h3>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+            </div>
+
+            <div class="box">
+                <img src="./img/quote-img.png" alt="" class="quote">
+                <p>I visited your store for the first time and just fell in love with the atmosphere! The coffee is simply divine, the service is 
+                    friendly, and even the interior creates coziness and comfort. Now this is my permanent place to wake up in the morning.</p>
+                    <img src="./img/pic-3.png" alt="" class="user">
+                    <h3>Peter Stevens</h3>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contacts section -->
+
+    <section class="contacts" id="contacts">
+        <h1 class="heading"><span>Contact</span> us</h1>
+        <div class="row">
+            <iframe class="map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d30153.788252261566!2d72.82321484621745!3d19.141690214227783!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be7b63aceef0c69%3A0x2aa80cf2287dfa3b!2sJogeshwari%20West%2C%20Mumbai%2C%20Maharashtra%20400047!5e0!3m2!1sen!2sin!4v1629452077891!5m2!1sen!2sin" allowfullscreen="" loading="lazy"></iframe>
+            <form action="">
+                <h3>get in touch</h3>
+                <div class="inputBox">
+                    <span class="fas fa-user"></span>
+                    <input type="text" placeholder="name">
+                </div>
+
+                <div class="inputBox">
+                    <span class="fas fa-user"></span>
+                    <input type="text" placeholder="email">
+                </div>
+
+                <div class="inputBox">
+                    <span class="fas fa-user"></span>
+                    <input type="text" placeholder="namber">
+                </div>
+
+                <input type="submit" value="contact now" class="btn">
+            </form>
+        </div>
+    </section>
+
+    <!-- Blog section -->
+
+    <section class="blog" id="blog">
+
+        <h1 class="heading"> our <span>blogs</span> </h1>
+    
+        <div class="box-container">
+    
+            <div class="box">
+                <div class="image">
+                    <img src="./img/blog-1.jpeg" alt="">
+                </div>
+                <div class="content">
+                    <a href="#" class="title">tasty and refreshing coffee</a>
+                    <span>by admin / 21st may, 2021</span>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Non, dicta.</p>
+                    <a href="#" class="btn">read more</a>
+                </div>
+            </div>
+    
+            <div class="box">
+                <div class="image">
+                    <img src="./img/blog-2.jpeg" alt="">
+                </div>
+                <div class="content">
+                    <a href="#" class="title">tasty and refreshing coffee</a>
+                    <span>by admin / 21st may, 2021</span>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Non, dicta.</p>
+                    <a href="#" class="btn">read more</a>
+                </div>
+            </div>
+    
+            <div class="box">
+                <div class="image">
+                    <img src="./img/blog-3.jpeg" alt="">
+                </div>
+                <div class="content">
+                    <a href="#" class="title">tasty and refreshing coffee</a>
+                    <span>by admin / 21st may, 2021</span>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Non, dicta.</p>
+                    <a href="#" class="btn">read more</a>
+                </div>
+            </div>
+    
+        </div>
+    
+    </section>
+
+    <!-- Footer section  -->
+
+    <section class="footer">
+        <div class="share">
+            <a href="#" class="fab fa-facebook-f"></a>
+            <a href="#" class="fab fa-twitter"></a>
+            <a href="#" class="fab fa-instagram"></a>
+            <a href="#" class="fab fa-linkedin"></a>
+            <a href="#" class="fab fa-pinterest"></a>
+        </div>
+
+        <div class="links">
+            <a href="#home">Home</a>
+
+            <a href="#about">About</a>
+
+            <a href="#menu">Menu</a>
+
+            <a href="#products">Products</a>
+
+            <a href="#review">Review</a>
+
+            <a href="#contacts">Contacts</a>
+
+            <a href="#blog">Blog</a>
+        </div>
+
+        <div class="credit">created by <span>TimFrontendDev</span> | all rights reserved</div>
+    </section>
+
+    <script src="./index.html"></script>
+</body>
+</html>
